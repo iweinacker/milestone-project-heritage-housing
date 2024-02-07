@@ -45,12 +45,24 @@
 [Back to Table of contents](#table-of-contents)
 
 ## Business Requirements
-As a good friend, you are requested by your friend, who has received an inheritance from a deceased great-grandfather located in Ames, Iowa, to  help in maximizing the sales price for the inherited properties.
 
-Although your friend has an excellent understanding of property prices in her own state and residential area, she fears that basing her estimates for property worth on her current knowledge might lead to inaccurate appraisals. What makes a house desirable and valuable where she comes from might not be the same in Ames, Iowa. She found a public dataset with house prices for Ames, Iowa, and will provide you with that
+Client: Lydia Doe
 
-* 1 - The client is interested in discovering how the house attributes correlate with the sale price. Therefore, the client expects data visualizations of the correlated variables against the sale price to show that.
-* 2 - The client is interested to predict the house sales price from her 4 inherited houses, and any other house in Ames, Iowa.
+Background:
+
+Lydia Doe has inherited four houses located in Ames, Iowa, USA from her deceased great-grandfather.
+While Lydia is knowledgeable about property prices in her home country of Belgium, she recognizes that the Iowan market may have different dynamics.
+She wants to avoid inaccurate appraisals and maximize the sales price for these properties.
+Lydia’s Concerns:
+
+Risk of Inaccurate Pricing: Lydia fears that relying solely on her understanding of Belgian property values might lead to incorrect estimates for the Iowan market.
+Financial Implications: Selling these properties involves a significant amount of money, and Lydia wants to make informed decisions.
+Lydia’s Decision:
+
+Lydia seeks assistance from a Data Practitioner to:
+1. Determine the true worth of the inherited properties.
+2. Predict sale prices for any house in Ames, Iowa, considering potential future property ownership.
+By collaborating with me, Lydia aims to make well-informed decisions and maximize the value of her inherited assets.
 
 [Back to Table of contents](#table-of-contents)
 
