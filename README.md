@@ -120,6 +120,15 @@ The page also has a description of the meaning of the variables and a general co
 
 [Back to Table of contents](#table-of-contents)
 
+## Tools and Technologies
+
+- Python
+- GitHub
+- Cloud IDE
+- Jupyter
+- Streamlit
+- Heroku
+
 ## Deployment to Heroku
 
 * The App live link is: https://housepricesfarid.herokuapp.com/ 
