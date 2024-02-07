@@ -69,6 +69,15 @@ By collaborating with me, Lydia aims to make well-informed decisions and maximiz
 ## Project hypothesis and validation.
 * We suspect that the distribution of the sale prices is skewed to the right which might lead to a problem when it comes to predicting high sale prices. To validate the project hypothesis about the shape of the distribution, we plot a combined boxplot/histogram of the sale price.
 
+Hypothesis 1 - Living Area and Sale Price:
+
+H0 (Null Hypothesis): There is no significant relationship between the above-grade living area (GrLivArea) and the sale price (SalePrice).
+H1 (Alternative Hypothesis): There is a significant positive or negative relationship between the above-grade living area and the sale price.
+Hypothesis 2 - Garage Finish and Sale Price:
+
+H0 (Null Hypothesis): The interior finish of the garage (GarageFinish) does not impact the sale price.
+H1 (Alternative Hypothesis): The interior finish of the garage has a significant effect on the sale price.
+
 [Back to Table of contents](#table-of-contents)
 
 ## Rationale to map the business requirements to the Data Visualizations and ML tasks
