@@ -1,34 +1,27 @@
 import streamlit as st
-from src.snsplot import plot_histogram_and_boxplot
-from src.data_management import load_house_price_data
 
 
-def page_project_hypothesis_body():
+def page_summary_body():
 
-    df = load_house_price_data()
+    st.write("### Quick Project Summary")
 
-    st.write("### Project Hypothesis and Validation")
-
-    # conclusions taken from HouseSalePrices notebook
-    st.success(
-        f"* We suspect that there is a few very high sale prices."
-        f" The combined boxplot/histogram below confirms that: The histogram extends far to the right."
-        f" It has a long tail.  \n"
-        f"* The price values well beyond the average range are called outliers and are shown as dots "
-        f"to the right of the box in the boxplot. They correspond to sale prices"
-        f" above $466075"
-
-    )
-
-    # plot combined boxplot/histogram of sale price - from HouseSalePrices notebook
-    df2 = df.filter(['SalePrice'])
-    plot_histogram_and_boxplot(df2)
-
+    # information from README file - "Dataset Content" section
     st.info(
-        f"* The models we have created may not accurately predict sale prices above $400000 "
-        f"(see scatterplots on the ML Regressor Model page). \n"
-        f"* This could be connected to the outliers mentioned above (with sale prices above $466075)"
-        f". Initial steps were taken to improve the model for predicting higher prices: The sale price"
-        f" variable was transformed to make its distribution more symmetrical but more work is needed: "
-        f" For each transformation tried, include it in the ML model and evaluate the new model."
+        f"**Project Dataset**\n"
+        f"* The dataset shows house sale prices in Ames, Iowa,"
+        f" together with 23 features that could potentially influence the price."
+        f" Examples of features are first floor area, basement area, wooddeck area, overall quality"
+        f", kitchen quality, construction date and so on.\n\n")
+
+    # link to README file, so the users can have access to the full project documentation
+    st.write(
+        f"* For additional information, please visit and **read** the "
+        f"[Project README file](https://github.com/faridjos/milestone-project-heritage-housing-issues)")
+
+    # copied from README file - "Business Requirements" section
+    st.success(
+        f"The project has 2 business requirements:\n"
+        f"* 1 - The client is interested in discovering how the house attributes correlate with the sale price."
+        f" Therefore, the client expects data visualizations of the correlated variables against the sale price to show that.\n"
+        f"* 2 - The client is interested to predict the house sale prices from her 4 inherited houses,"
     )

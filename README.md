@@ -20,7 +20,7 @@ You can safely delete the Codeanywhere Template Instructions section of this REA
 
 1. Click Create
 
-1. Wait for the workspace to open. This can take a few minutes.
+1. Wait for the workspace to open. This can take a few minutes..
    
 
 2. Open a new terminal and <code>pip3 install -r requirements.txt</code>
@@ -33,8 +33,8 @@ You can safely delete the Codeanywhere Template Instructions section of this REA
 
 6. Open the jupyter_notebooks directory in the jupyter webpage that has opened and click on the notebook you want to open.
 
-7. Click the button Not Trusted and choose Trust..
-
+7. Click the button Not Trusted and choose Trust.
+   
 Note that the kernel says Python 3. It inherits from the workspace so it will be Python-3.8.12 as installed by our template. To confirm this you can use <code>! python --version</code> in a notebook code cell.
 
 
