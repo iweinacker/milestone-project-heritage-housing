@@ -6,13 +6,14 @@ import joblib
 # load house price data
 
 
-@st.cache(suppress_st_warning=True, allow_output_mutation=True)
+@st.cache_data()
 def load_house_price_data():
-    df = pd.read_csv("outputs/datasets/collection/HousePricesRecords.csv")
+    df = pd.read_csv(
+        "outputs/datasets/collection/HousePricePredictionSales.csv")
     return df
 
-# load correlation coefficients - from HouseSalePrices notebook
 
+# load correlation coefficients - from HouseSalePrices notebook
 
 def load_corr():
     df = pd.read_csv("outputs/house_prices_study/v1/corr_df_rev.csv")

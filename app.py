@@ -17,3 +17,5 @@ app.add_page("House Price Study", page_house_prices_study_body)
 app.add_page("Predict House Price", page_predict_house_price_body)
 app.add_page("Project Hypothesis", page_project_hypothesis_body)
 app.add_page("ML Regressor Model", page_ML_regressor_model_body)
+
+app.run()  # Run the app

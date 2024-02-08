@@ -1,11 +1,7 @@
 import streamlit as st
-from src.snsplot import plot_histogram_and_boxplot
-from src.data_management import load_house_price_data
 
 
 def page_project_hypothesis_body():
-
-    df = load_house_price_data()
 
     st.write("### Project Hypothesis and Validation")
 
@@ -19,10 +15,6 @@ def page_project_hypothesis_body():
         f" above $466075"
 
     )
-
-    # plot combined boxplot/histogram of sale price - from HouseSalePrices notebook
-    # df2=df.filter(['SalePrice'])
-    # plot_histogram_and_boxplot(df2)
 
     st.info(
         f"* The models we have created may not accurately predict sale prices above $400000 "

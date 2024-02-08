@@ -17,6 +17,7 @@ def page_house_prices_study_body():
     df_corr = load_corr()
     dic = load_pkl_file('outputs/house_prices_study/v1/dic.pkl')
 
+
     # copied from HouseSalePrices study notebook
     st.write("### House Sale Price study")
     st.info(
