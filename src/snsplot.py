@@ -4,8 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
 # plot combined histogram/boxplot - from HouseSalePrices notebook
+
+
 def plot_histogram_and_boxplot(df):
     for col in df.columns:
         fig, axes = plt.subplots(nrows=2, ncols=1, figsize=(
