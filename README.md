@@ -72,14 +72,11 @@ By collaborating with me, Lydia aims to make well-informed decisions and maximiz
 ## Project hypothesis and validation.
 * We suspect that the distribution of the sale prices is skewed to the right which might lead to a problem when it comes to predicting high sale prices. To validate the project hypothesis about the shape of the distribution, we plot a combined boxplot/histogram of the sale price.
 
-Hypothesis 1 - Living Area and Sale Price:
+Hypothesis 1 - Overall Quality and Sale Price:
 
-H0 (Null Hypothesis): There is no significant relationship between the above-grade living area (GrLivArea) and the sale price (SalePrice).
-H1 (Alternative Hypothesis): There is a significant positive or negative relationship between the above-grade living area and the sale price.
-Hypothesis 2 - Garage Finish and Sale Price:
+H0 (Null Hypothesis): There is no significant relationship between the Rates the overall material and finish of the house and the sale price .
+H1 (Alternative Hypothesis): There is a significant positive relationship between the Rates the overall material and finish of the house and the sale price.
 
-H0 (Null Hypothesis): The interior finish of the garage (GarageFinish) does not impact the sale price.
-H1 (Alternative Hypothesis): The interior finish of the garage has a significant effect on the sale price.
 
 [Back to Table of contents](#table-of-contents)
 
@@ -155,7 +152,7 @@ The page also has a description of the meaning of the variables and a general co
 
 ## Deployment to Heroku
 
-* The App live link is: https://housepricesfarid.herokuapp.com/ 
+* The App live link is: https:/// 
 * The project was deployed to Heroku using the following steps:
 1. Create a Procfile which tells Heroku how to run the project
 2. Create a setup.sh file containing the streamlit configuration requirements 
@@ -190,13 +187,13 @@ The libraries used in this project are:
 - ipywidgets==8.0.2
 - altair<5
 
-As an example, Seaborn was used to creating the heatmap of correlation coefficients, pandas-profiling to explore the variables in the dataset by showing their distribution, how many missing data they contain etc. 
+
 
 [Back to Table of contents](#table-of-contents)
 
 ## Credits 
-
-My main inspiration came from the Code Institute Churnometer walkthrough project and the Scikit-learn lesson in the Data Analysis and Machine Learning Toolkit module (also from the Code Institute). The structure of the project and most of the code is taken from there and adapted to this project. 
+- My firt credit is to [faridjos](https://github.com/faridjos) in the data cleaning and the structure of the presentation of the project.
+- Second, to the Code Institute Churnometer walkthrough project and the Scikit-learn lesson in the Data Analysis and Machine Learning Toolkit module. The structure of the project and most of the code is taken from there and adapted to this project. 
 
 [Back to Table of contents](#table-of-contents)
 
