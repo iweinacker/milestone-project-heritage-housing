@@ -1,7 +1,6 @@
 import numpy as np
 import streamlit as st
 from src.data_management import load_house_price_data
-from src.data_management import load_corr
 from src.data_management import load_pkl_file
 
 import matplotlib.pyplot as plt
@@ -14,7 +13,6 @@ def page_house_prices_study_body():
     # load housing data, correlation coefficients and a dictionary used in encoding
     # object variables
     df = load_house_price_data()
-    df_corr = load_corr()
     dic = load_pkl_file('outputs/house_prices_study/v1/dic.pkl')
 
     # copied from HouseSalePrices study notebook
