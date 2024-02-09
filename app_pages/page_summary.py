@@ -3,7 +3,7 @@ import streamlit as st
 
 def page_summary_body():
 
-    st.write("### Quick Project Summary")
+    st.write("### Project Summary")
 
     # information from README file - "Dataset Content" section
     st.info(
@@ -16,7 +16,7 @@ def page_summary_body():
     # link to README file, so the users can have access to the full project documentation
     st.write(
         f"* For additional information, please visit and **read** the "
-        f"[Project README file]()")
+        f"[Project README file](https://github.com/iweinacker/milestone-project-heritage-housing/tree/main)")
 
     # copied from README file - "Business Requirements" section
     st.success(

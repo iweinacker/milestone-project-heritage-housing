@@ -1,8 +1,4 @@
 import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-from src.data_management import load_pkl_file
-from src.evaluate import regression_performance, regression_evaluation, regression_evaluation_plots
 
 
 def page_ML_regressor_model_body():

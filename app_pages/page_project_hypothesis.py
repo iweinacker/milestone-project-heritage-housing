@@ -1,6 +1,4 @@
 import streamlit as st
-from src.snsplot import plot_histogram_and_boxplot
-from src.data_management import load_house_price_data
 
 
 def page_project_hypothesis_body():

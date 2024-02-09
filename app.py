@@ -9,7 +9,7 @@ from app_pages.page_ML_regressor_model import page_ML_regressor_model_body
 from app_pages.page_project_hypothesis import page_project_hypothesis_body
 
 # Create an instance of the app
-app = MultiPage(app_name="House Prices in Ames, Iowa")
+app = MultiPage(app_name="House Prices Prediction Iowa")
 
 # Add app pages using .add_page()
 app.add_page("Quick Project Summary", page_summary_body)

@@ -24,7 +24,6 @@ def page_house_prices_study_body():
         f"* The client is interested in discovering how the house attributes correlate with the sale price."
         f" Therefore, the client expects data visualizations of the correlated variables against the sale price to show that.")
 
-
     # display housing data dataframe
     if st.checkbox("Inspect housing records dataset"):
         st.write(
@@ -48,12 +47,7 @@ def page_house_prices_study_body():
         f"* **OverallQual**: Rates the overall material and finish of the house.  \n"
         f"* **GarageArea**: Above grade (ground) living area square feet. \n"
         f"* **2ndFlrSF**: Second floor square feet. \n"
-        f"* **KitchenQual**: Kitchen quality. \n"
         f"* **YearBuilt**: Original construction date. \n"
     )
 
-
     st.image('Images/topvariable.png', caption='Top 5 Variables')
-
-
-
