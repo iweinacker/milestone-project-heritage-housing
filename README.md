@@ -125,14 +125,11 @@ H1 (Alternative Hypothesis): There is a significant positive relationship betwee
 ## Dashboard Design
 The dashboard consists of five pages:
 1. The first page describes the project dataset and states the business requiremnents.
-2. The second page fullfills the first project requirement. It starts with stating the requirement in an info box. Three checkboxes implement the user stories relating to the first project requirement (see [Business Requirements](#business-requirements)). When checked they display:
-    * A table showing the dataset.
-    * A heatmap of Spearman correlation coefficients.
-    * Scatterplots of correlated variables against sell price.
-The page also has a description of the meaning of the variables and a general conclusion.
-3. The third page fullfills the second project requirement (see [Business Requirements](#business-requirements)). It has two tables showing the client's inherited houses data and predicted sale prices respectively. The sum of the sale prices is also displayed. The second part of the page has two input widgets and a button that enables the user to predict the sale price based on the inputs.
-4. The fourth page states the project hypothesis and its validation. It shows the distribution of sale price. Finally there is a paragraph about the model's limitation and how it may be connected to the project hypothesis.
-5. The fifth page starts with a general conclusion about the performance of the ML model. The pipeline steps are then presented followed by a bar plot showing the importance of each feature in the train set. The remaining two parts evaluate the ML model by computing the R2 score and three different error measures and by displaying a scatterplot of predicted versus actual sale price (which is the target).
+2. The second page fullfills the first project requirement. It starts with stating the requirement in an info box. After Also appear a Heatmap which correlate the 4 top variable and saleprice. 
+The page also has a description of the meaning of the variables.
+3. The third page fullfills the second project requirement. It show three input widgets and a button that enables the user to predict the sale price based on the inputs. These three imputs are related to the most importance feature.
+4. The fourth page states the project hypothesis and its validation. It shows also the distribution of sale price which reafirm our analisis. 
+5. The fifth page starts with a general conclusion about the performance of the ML model. The pipeline steps are then presented followed by a bar plot showing the importance of each feature in the train set. The remaining two parts evaluate the ML model by computing the R2 score measures and by displaying a scatterplot of predicted versus actual sale price.
 
 [Back to Table of contents](#table-of-contents)
 
@@ -198,7 +195,4 @@ The libraries used in this project are:
 [Back to Table of contents](#table-of-contents)
 
 
-
-## Acknowledgements (optional)
-* In case you would like to thank the people that provided support through this project.
 
