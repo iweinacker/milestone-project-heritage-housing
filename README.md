@@ -62,7 +62,7 @@ Risk of Inaccurate Pricing: Lydia fears that relying solely on her understanding
 Financial Implications: Selling these properties involves a significant amount of money, and Lydia wants to make informed decisions.
 Lydia’s Decision:
 
-Lydia seeks assistance from a Data Practitioner to:
+Lydia seeks assistance from me to:
 1. Determine the true worth of the inherited properties.
 2. Predict sale prices for any house in Ames, Iowa, considering potential future property ownership.
 By collaborating with me, Lydia aims to make well-informed decisions and maximize the value of her inherited assets.
