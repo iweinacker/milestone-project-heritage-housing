@@ -149,7 +149,7 @@ The page also has a description of the meaning of the variables.
 
 ## Deployment to Heroku
 
-* The App live link is: https:/// 
+* The App live link is: [Heroku live page](https://data-project-heritage-housing-38be4e73b288.herokuapp.com/)
 * The project was deployed to Heroku using the following steps:
 1. Create a Procfile which tells Heroku how to run the project
 2. Create a setup.sh file containing the streamlit configuration requirements 
